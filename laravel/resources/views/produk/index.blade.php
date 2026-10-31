@@ -46,7 +46,7 @@
                             method="POST" style="display:inline;">
                             @csrf
                             @method('DELETE')
-                            <button type="submit" class="btn btn-danger btn-sm"
+                            <button type="submit" class="btn btn-dark btn-sm"
                             onclick="return confirm('Yakin ingin menghapus?')">Hapus</button>
                         </form>
                     </td>
